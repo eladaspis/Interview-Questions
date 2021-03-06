@@ -1,0 +1,56 @@
+//
+// Created by Elad on 21/08/2020.
+//
+
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int min(int a, int b) {
+    return a < b ? a : b;
+}
+
+//Problem:
+//The deletion distance of two strings is the minimum number of characters you need to delete in the two strings in order to get the same string. For instance, the deletion distance between "heat" and "hit" is 3:
+//
+//By deleting 'e' and 'a' in "heat", and 'i' in "hit", we get the string "ht" in both cases.
+//We cannot get the same string from both strings by deleting 2 letters or fewer.
+//Given the strings str1 and str2, write an efficient function deletionDistance that returns the deletion distance between them. Explain how your function works, and analyze its time and space complexities.
+//
+//Examples:
+//
+//input:  str1 = "dog", str2 = "frog"
+//output: 3
+//
+//input:  str1 = "some", str2 = "some"
+//output: 0
+//
+//input:  str1 = "some", str2 = "thing"
+//output: 9
+//
+//input:  str1 = "", str2 = ""
+//output: 0
+int deletionDistance(const string &str1, const string &str2) {
+    // your code goes here
+    int str1_len = str1.length();
+    int str2_len = str2.length();
+
+    int tmp[str1_len + 1][str2_len + 1];
+
+    for (int i = 0; i < str1_len; i++) {
+        for (int j = 0; j < str2_len; j++) {
+            if (i == 0) {
+                tmp[i][j] = j;
+            } else if (j == 0) {
+                tmp[i][j] = i;
+            } else if (str1[i - 1] == str2[j - 1]) {
+                tmp[i][j] = tmp[i - 1][j - 1];
+            } else {
+                tmp[i][j] = 1 + min(tmp[i - 1][j], tmp[i][j - 1]);
+            }
+        }
+    }
+    return tmp[str1_len][str2_len];
+}
+
