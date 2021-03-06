@@ -41,17 +41,20 @@ vector<vector<int>> threeSum(vector<int>& nums) {
     vector<vector<int>> ret_vec;
     int cnt=0;
     for(auto num: nums){
-        umap.insert(make_pair(cnt, nums[cnt]));
+        umap.insert(make_pair(nums[cnt], nums[cnt]));
         cnt++;
     }
 	for (auto it = umap.begin(); it != umap.end(); it++){
 		for (auto it2 = umap.begin(); it2 != umap.end(); it2++){
 			if (it!=it2){
 				std::unordered_map<int, int>::iterator got = umap.find((-1)*(it->second + it2->second));
-				if(got != umap.end() && got != it && got != it2){
+				if(got != umap.end()){
 					vector<int> v;
+					// cout <<(-1)*(it->second) <<endl;
 					v.push_back(it->second);
+					// cout <<(it2->second) <<endl;
 					v.push_back(it2->second);
+					// cout <<(-1)*(it->second + it2->second) <<endl;
 					v.push_back((-1)*(it->second + it2->second));
 					sort(v.begin(), v.end());
 					if(std::find(ret_vec.begin(), ret_vec.end(), v) == ret_vec.end())
@@ -63,14 +66,14 @@ vector<vector<int>> threeSum(vector<int>& nums) {
 		}
 	}
 	return ret_vec;
-}
+} 
 
 int main(){
 	std::vector<int> v;
 	v.push_back(0);
-	v.push_back(-58);
-	v.push_back(-2);
-	v.push_back(60);
+	v.push_back(2);
+	v.push_back(1);
+	v.push_back(-3);
 	vector<vector<int>> vec = threeSum(v);
 	for(auto tmp : vec){
 		for(auto num: tmp){
