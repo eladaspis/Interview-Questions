@@ -76,5 +76,4 @@ int knapsackDpBu(Item* items, int weight) {
 }
 
 int main(){
-	cout << minOperation(5) << endl; 
 }
