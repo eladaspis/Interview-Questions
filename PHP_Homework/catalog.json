@@ -1,0 +1,406 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "ASOS DESIGN oversized linen shirt with revere collar",
+      "categories": [
+        {
+          "id": 1,
+          "title": "Shirts"
+        },
+        {
+          "id": 2,
+          "title": "Sale"
+        }
+      ],
+      "price": 10,
+      "labels": [
+        1,
+        10,
+        11
+      ]
+    },
+    {
+      "id": 2,
+      "title": "boohooMAN revere collar co-ord shirt in citrus printMIX & MATCH",
+      "categories": [
+        {
+          "id": 1,
+          "title": "Shirts"
+        }
+      ],
+      "price": 17,
+      "labels": [
+        1,
+        2,
+        5,
+        6,
+        8,
+        11
+      ]
+    },
+    {
+      "id": 3,
+      "title": "ASOS DESIGN wedding slim fit sateen shirt in light color",
+      "categories": [
+        {
+          "id": 1,
+          "title": "Shirts"
+        },
+        {
+          "id": 2,
+          "title": "Sale"
+        }
+      ],
+      "price": 25,
+      "labels": [
+        1,
+        4,
+        5,
+        6,
+        7,
+        10,
+        11,
+        13
+      ]
+    },
+    {
+      "id": 4,
+      "title": "COLLUSION oversized denim shirt in light wash",
+      "categories": [
+        {
+          "id": 1,
+          "title": "Shirts"
+        }
+      ],
+      "price": 35,
+      "labels": [
+        1,
+        2,
+        2,
+        5
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Sacred Hawk revere shirt in floral print reg fit",
+      "categories": [
+      ],
+      "price": 17,
+      "labels": [
+        2,
+        5,
+        12,
+        11
+      ]
+    },
+    {
+      "id": 6,
+      "title": "COLLUSION oversized stripe revere shirt",
+      "categories": [
+        {
+          "id": 1,
+          "title": "Shirts"
+        },
+        {
+          "id": 2,
+          "title": "Sale"
+        }
+      ],
+      "price": 32,
+      "labels": [
+        11,
+        12
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Farah Brewer slim fit oxford shirt",
+      "categories": [
+        {
+          "id": 1,
+          "title": "Shirts"
+        }
+      ],
+      "price": 27,
+      "labels": [
+        3,
+        9,
+        11,
+        2,
+        5
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Harry Brown slim fit poplin shirt",
+      "categories": [
+        {
+          "id": 1,
+          "title": "Shirts"
+        },
+        {
+          "id": 2,
+          "title": "Sale"
+        }
+      ],
+      "price": 9,
+      "labels": [
+      ]
+    },
+    {
+      "id": 9,
+      "title": "French Connection plain poplin slim fit shirt",
+      "categories": [
+        {
+          "id": 1,
+          "title": "Shirts"
+        },
+        {
+          "id": 2,
+          "title": "Sale"
+        }
+      ],
+      "price": 45,
+      "labels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "id": 10,
+      "title": "ASOS DESIGN original fit jeans in bright color",
+      "categories": [
+        {
+          "id": 3,
+          "title": "Pants"
+        },
+        {
+          "id": 2,
+          "title": "Sale"
+        }
+      ],
+      "price": 145,
+      "labels": [
+        1,
+        2,
+        15,
+        17
+      ]
+    },
+    {
+      "id": 11,
+      "title": "ASOS DESIGN baggy jeans",
+      "categories": [
+        {
+          "id": 3,
+          "title": "Pants"
+        },
+        {
+          "id": 2,
+          "title": "Sale"
+        }
+      ],
+      "price": 78,
+      "labels": [
+        4,
+        15,
+        16
+      ]
+    },
+    {
+      "id": 12,
+      "title": "ASOS DESIGN recycled slim jeans in retro color",
+      "categories": [
+        {
+          "id": 3,
+          "title": "Pants"
+        }
+      ],
+      "price": 55,
+      "labels": [
+        1,
+        2,
+        15,
+        17
+      ]
+    },
+    {
+      "id": 13,
+      "title": "ASOS DESIGN Tall original fit jeans in vintage stone wash",
+      "categories": [
+        {
+          "id": 3,
+          "title": "Pants"
+        },
+        {
+          "id": 2,
+          "title": "Sale"
+        }
+      ],
+      "price": 68,
+      "labels": [
+        4,
+        7,
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "id": 14,
+      "title": "boohooMAN skinny jeans with distressing",
+      "categories": [
+        {
+          "id": 3,
+          "title": "Pants"
+        }
+      ],
+      "price": 90,
+      "labels": [
+        1,
+        7,
+        15
+      ]
+    },
+    {
+      "id": 15,
+      "title": "ASOS DESIGN Tall spray on jeans in power stretch denim with knee rip",
+      "categories": [
+        {
+          "id": 3,
+          "title": "Pants"
+        },
+        {
+          "id": 2,
+          "title": "Sale"
+        }
+      ],
+      "price": 50,
+      "labels": [
+        1,
+        5,
+        15,
+        15,
+        15,
+        18
+      ]
+    },
+    {
+      "id": 16,
+      "title": "ASOS DESIGN tapered jeans in light wash",
+      "categories": [
+      ],
+      "price": 4,
+      "labels": [
+      ]
+    }
+  ],
+  "attributes": [
+    {
+      "id": 1,
+      "title": "Color",
+      "labels": [
+        {
+          "id": 1,
+          "title": "Blue"
+        },
+        {
+          "id": 2,
+          "title": "Red"
+        },
+        {
+          "id": 3,
+          "title": "White"
+        },
+        {
+          "id": 4,
+          "title": "Black"
+        },
+        {
+          "id": 5,
+          "title": "Grey"
+        },
+        {
+          "id": 6,
+          "title": "Orange"
+        },
+        {
+          "id": 7,
+          "title": "Yellow"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Size",
+      "labels": [
+        {
+          "id": 8,
+          "title": "XS"
+        },
+        {
+          "id": 9,
+          "title": "S"
+        },
+        {
+          "id": 10,
+          "title": "M"
+        },
+        {
+          "id": 11,
+          "title": "L"
+        },
+        {
+          "id": 12,
+          "title": "XL"
+        },
+        {
+          "id": 13,
+          "title": "XXL"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Size",
+      "labels": [
+        {
+          "id": 14,
+          "title": "32X32"
+        },
+        {
+          "id": 15,
+          "title": "32X34"
+        },
+        {
+          "id": 16,
+          "title": "32X36"
+        },
+        {
+          "id": 17,
+          "title": "36X32"
+        },
+        {
+          "id": 18,
+          "title": "34X32"
+        },
+        {
+          "id": 19,
+          "title": "34X36"
+        }
+      ]
+    }
+  ]
+}
